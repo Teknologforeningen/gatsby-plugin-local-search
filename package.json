@@ -1,6 +1,6 @@
 {
-  "name": "teknologföreningen/gatsby-plugin-local-search",
-  "description": "Fork of Gatsby plugin for providing client-side search for data available in Gatsby's GraphQL layer using a variety of engines",
+  "name": "gatsby-plugin-local-search",
+  "description": "Gatsby plugin for providing client-side search for data available in Gatsby's GraphQL layer using a variety of engines",
   "version": "2.0.1",
   "license": "MIT",
   "main": "dist/gatsby-node.js",
@@ -28,7 +28,7 @@
   "homepage": "https://github.com/angeloashmore/gatsby-plugin-local-search",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Teknologforeningen/gatsby-plugin-local-search"
+    "url": "https://github.com/angeloashmore/gatsby-plugin-local-search.git"
   },
   "keywords": [
     "gatsby",
