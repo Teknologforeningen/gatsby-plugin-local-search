@@ -2,6 +2,7 @@ import path from 'path'
 import fs from 'fs'
 import lunr from 'lunr'
 import FlexSearch from 'flexsearch'
+import { Document } from 'flexsearch'
 import {
   GatsbyNode,
   CreatePagesArgs,
@@ -28,7 +29,7 @@ const createFlexSearchIndexExport = (
 ): string => {
   const { ref = DEFAULT_REF, index: indexFields, engineOptions } = pluginOptions
 
-  const index = FlexSearch.create<IndexableDocument>(engineOptions)
+  const index = new Document<IndexableDocument>(engineOptions)
 
   documents.forEach((doc) => {
     const serializedDoc = JSON.stringify(
