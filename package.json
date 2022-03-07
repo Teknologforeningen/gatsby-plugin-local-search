@@ -1,5 +1,5 @@
 {
-  "name": "teknologforeningen/gatsby-plugin-local-search",
+  "name": "teknologföreningen/gatsby-plugin-local-search",
   "description": "Fork of Gatsby plugin for providing client-side search for data available in Gatsby's GraphQL layer using a variety of engines",
   "version": "2.0.1",
   "license": "MIT",
